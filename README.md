@@ -2,7 +2,7 @@
 
 **Your Go-Live Companion — Nothing Gets Forgotten.**
 
-With Launch Checklist, you get a structured, automated checklist system for website launches, software deployments, and any kind of go-live process. Over 200 pre-built tasks, automated checks, and real-time progress tracking ensure that nothing slips through the cracks.
+A structured, automated checklist system for website launches. Over 200 pre-built tasks, 9 automated verification checks, team collaboration, and real-time progress tracking — so nothing slips through the cracks.
 
 🌐 **[launch-checklist.com](https://launch-checklist.com)**
 
@@ -15,7 +15,7 @@ Start using Launch Checklist **instantly** — no signup, no credit card, no com
 1. Choose a template (Default, TYPO3, WordPress)
 2. Start checking off tasks
 3. Export your progress as PDF
-4. Register later to save your data permanently (no data loss)
+4. Register later to save your data permanently (seamless, no data loss)
 
 👉 **[Start your free checklist now](https://launch-checklist.com/checklist)**
 
@@ -28,37 +28,38 @@ Start using Launch Checklist **instantly** — no signup, no credit card, no com
 
 ---
 
-## Why Launch Checklist?
-
-Every launch has dozens of tasks that need to be completed — SSL certificates, redirects, SEO tags, security headers, analytics setup, legal compliance, and much more. Missing even one can lead to downtime, SEO penalties, or security vulnerabilities.
-
-Launch Checklist gives you a **structured, repeatable process** so you can launch with confidence.
-
----
-
 ## Key Features
 
 ### Structured Checklists
 
-Over **200+ pre-built tasks** organized in **20 categories**, covering everything from DNS setup to post-launch monitoring. Each task includes a description, help text, documentation links, and priority level.
+Over **213 pre-built tasks** organized in **20 categories**, covering everything from DNS setup to post-launch monitoring. Each task includes:
+
+- **Why it matters** — contextual explanation of the task's importance
+- **How to fix it** — actionable guidance on how to complete it
+- **Documentation links** — direct links to official references (51 tasks)
+- **Priority level** — Strong, Normal, or Low
+- **Drag & Drop** — Reorder tasks within categories to match your workflow
 
 **Categories include:**
 Project Organisation, Domain & DNS, Hosting & Infrastructure, SSL & HTTPS, Security, SEO, Robots & Indexing, Redirects & URL Structure, Content, Media & Assets, Design & UX, Performance, Forms & Leads, Tracking & Analytics, Privacy & Legal, Email & Notifications, CMS Backend, Backups & Recovery, Monitoring & Post-Launch, Finalisation & Documentation.
 
-### Automated Checks (Verify System)
+### 9 Automated Checks (Verify System)
 
 Don't just check off tasks manually — let the system **verify them automatically**:
 
 | Check | What It Verifies |
 |-------|-----------------|
-| **SSL Certificate** | HTTPS reachable, certificate valid and not expired |
-| **robots.txt** | File present with valid User-agent and Disallow rules |
-| **sitemap.xml** | File present with valid XML structure |
-| **HTTPS Redirect** | HTTP requests redirect to HTTPS (301/302) |
-| **Security Headers** | X-Frame-Options, X-Content-Type-Options, HSTS present |
-| **Canonical Tags** | `<link rel="canonical">` present with correct domain |
+| **SSL Certificate** | HTTPS reachable, certificate expiry, self-signed detection |
+| **robots.txt** | Valid directives, site self-blocking detection, meta noindex/nofollow |
+| **sitemap.xml** | Resolves from robots.txt, fallback paths, validates XML |
+| **HTTPS Redirect** | HTTP → HTTPS (301/302/307/308), SEO recommendations |
+| **Security Headers** | X-Frame-Options, X-Content-Type-Options, HSTS with value validation |
+| **Canonical Tag** | HTML tag + HTTP header, multiple tags, www mismatch detection |
+| **Meta Tags** | Title/description length, viewport, lang, charset |
+| **Open Graph** | og:title, og:image, og:description, image reachability |
+| **Favicon** | HTML link tags, /favicon.ico, Apple Touch Icon, manifest |
 
-Works with **password-protected staging environments** (Basic Auth support). Tasks are automatically checked off when verification passes.
+Works with **password-protected staging environments** (Basic Auth support). Tasks are automatically checked off when verification passes. When a check **fails**, the system provides **specific fix guidance** — explaining why it matters and exactly how to resolve the issue.
 
 ### Project Templates
 
@@ -74,20 +75,31 @@ Save your own project configurations as **reusable templates** for future launch
 
 Work together on launches with your team:
 
-- **Team roles**: Owner, Admin, Member with granular permissions
-- **Task assignment**: Assign tasks to team members
-- **Comments**: Add notes and discussions per task
-- **Email invitations**: Invite team members via email
-- **Multiple teams**: Manage different teams for different clients
+- **Team roles** — Owner, Admin, Member with granular permissions
+- **Task assignment** — Assign tasks to specific team members
+- **Comments** — Add notes and discussions per task
+- **Email invitations** — Invite team members with one click
+- **Multiple teams** — Manage different teams for different clients
 
-### Real-Time Progress Tracking
+### Share Projects — No Login Required
 
-Always know where you stand:
+Share any project with stakeholders via a **unique read-only link**:
 
-- **Category progress**: See completion percentage per category
-- **Priority breakdown**: Radial charts for High, Normal, and Low priority tasks
-- **Overall score**: Global project completion at a glance
-- **Task phases**: Pre-Launch, Launch, and Monitoring phases
+- **No account needed** — recipients just open the link
+- **Optional password** protection (AES-256-GCM encrypted)
+- **Configurable expiry** — 7 days, 30 days, or unlimited
+- **Live data** — viewers always see current progress (auto-refresh)
+- **PDF export** available directly from the shared view
+
+Perfect for sharing launch progress with clients who don't need an account.
+
+### Project Lifecycle
+
+Track your project through its natural lifecycle:
+
+- **Active** → **Completed** (with confetti celebration!) → **Archived**
+- Reopen completed projects or unarchive archived ones
+- Only team Owners and Admins can manage project status
 
 ### Export & Reporting
 
@@ -98,11 +110,67 @@ Generate professional reports in multiple formats:
 - **JSON** — For integrations and automation
 - **Redmine** — Compatible with Redmine project management
 
+### Passwordless Login
+
+- **Magic Link** — Receive a login link via email, no password needed
+- **Password Reset** — "Forgot password?" flow with secure email tokens
+- **Rate Limited** — All auth endpoints protected against brute-force
+- **Anti-Enumeration** — Auth flows never reveal if an email exists
+
+### Admin Panel
+
+Full control over the system:
+
+- **Task Pool** — Manage all 213 tasks (edit, activate/deactivate, documentation links)
+- **User Management** — View users, change roles, team overview
+- **System Settings** — SMTP, app name, invitation expiry — all configurable via UI
+- **Dashboard** — KPI overview with charts (projects, teams, users, task completion)
+- **SMTP Test** — Verify email configuration directly from the admin panel
+
 ### Dark Mode & Multilingual
 
 - **Dark and Light mode** with automatic system detection
-- Full support for **English** and **German** — including all 200+ task definitions
+- Full support for **English** and **German** — including all 213 task definitions
+- **Localized URLs** — `/projects` (EN) → `/de/projekte` (DE)
 - Adding more languages is as simple as adding one translation file
+
+---
+
+## Privacy First
+
+Launch Checklist takes a **privacy-first approach**:
+
+- **No tracking** — No Google Analytics, no Facebook Pixel, no third-party scripts
+- **No consent banner needed** — Only functional cookies (session, team context)
+- **Self-hosted** — Your data stays on your server
+- **GDPR-compliant** — Full privacy policy included, IP logging with SHA-256 hashing
+- **Fonts self-hosted** — No Google Fonts CDN, no external requests
+
+---
+
+## Self-Hosting (Docker)
+
+Deploy on your own server with **zero configuration**:
+
+```bash
+docker compose up -d --build
+```
+
+That's it. The system automatically:
+1. Creates the database
+2. Runs all migrations
+3. Seeds initial data (213 tasks, categories, templates, admin user)
+4. Starts the application
+
+**Update workflow** — just as simple:
+
+```bash
+git pull && docker compose up -d --build
+```
+
+New migrations and seed data are applied automatically on every start.
+
+**Requirements:** Docker + Docker Compose. Runs on any Linux server (tested on Ubuntu 24.04).
 
 ---
 
@@ -113,11 +181,13 @@ Generate professional reports in multiple formats:
 | [Next.js](https://nextjs.org) | React framework (App Router, Server Components) |
 | [TypeScript](https://www.typescriptlang.org) | Type-safe development |
 | [PostgreSQL](https://www.postgresql.org) | Reliable database |
-| [Prisma](https://www.prisma.io) | Type-safe ORM |
+| [Prisma](https://www.prisma.io) | Type-safe ORM with migrations |
 | [Tailwind CSS](https://tailwindcss.com) | Utility-first styling |
-| [shadcn/ui](https://ui.shadcn.com) | Beautiful UI components |
-| [Auth.js](https://authjs.dev) | Authentication |
-| [Docker](https://www.docker.com) | Containerized deployment |
+| [shadcn/ui](https://ui.shadcn.com) | UI component library |
+| [Auth.js](https://authjs.dev) | Authentication (credentials + magic link) |
+| [next-intl](https://next-intl.dev) | Internationalization with localized URLs |
+| [Nodemailer](https://nodemailer.com) | Transactional email (invitations, magic links) |
+| [Docker](https://www.docker.com) | Zero-config containerized deployment |
 
 ---
 
@@ -141,7 +211,6 @@ Launch Checklist is developed by **[INGENIUMDESIGN](https://www.ingeniumdesign.d
 
 - 🌐 **Website**: [launch-checklist.com](https://launch-checklist.com)
 - 🚀 **Free Checklist**: [launch-checklist.com/checklist](https://launch-checklist.com/checklist)
-- 💰 **Pricing**: [launch-checklist.com/pricing](https://launch-checklist.com/pricing)
 
 ---
 
