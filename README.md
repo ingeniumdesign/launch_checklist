@@ -31,7 +31,7 @@ Start using Launch Checklist **instantly** — no signup, no credit card, no com
 
 ### Structured Checklists
 
-Over **213 pre-built tasks** organized in **20 categories**, covering everything from DNS setup to post-launch monitoring. Each task includes:
+Over **200 pre-built tasks** organized in **20 categories**, covering everything from DNS setup to post-launch monitoring. Each task includes:
 
 - **Why it matters** — contextual explanation of the task's importance
 - **How to fix it** — actionable guidance on how to complete it
@@ -210,6 +210,7 @@ Launch Checklist is developed by **[INGENIUMDESIGN](https://www.ingeniumdesign.d
 
 - 🌐 **Website**: [launch-checklist.com](https://launch-checklist.com)
 - 🚀 **Free Checklist**: [launch-checklist.com/checklist](https://launch-checklist.com/checklist)
+- 📋 **Changelog**: [launch-checklist.com/changelog](https://launch-checklist.com/changelog)
 
 ---
 
