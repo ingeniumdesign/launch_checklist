@@ -23,8 +23,7 @@ Start using Launch Checklist **instantly** — no signup, no credit card, no com
 
 ## Screenshot
 
-<!-- Replace with actual screenshot -->
-> Visit **[launch-checklist.com](https://launch-checklist.com)** to see it live.
+![Launch Checklist — Dashboard and Project Overview](launch-checklist-github-v1.png)
 
 ---
 
