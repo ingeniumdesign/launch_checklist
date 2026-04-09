@@ -2,7 +2,7 @@
 
 **Your Go-Live Companion — Nothing Gets Forgotten.**
 
-A structured, automated checklist system for website launches. Over 200 pre-built tasks, 9 automated verification checks, team collaboration, and real-time progress tracking — so nothing slips through the cracks.
+A structured, automated checklist system for website launches. Over 200 pre-built launch tasks, 9 automated verification checks, a public Quick Check tool, team collaboration, and real-time progress tracking — so nothing slips through the cracks.
 
 🌐 **[launch-checklist.com](https://launch-checklist.com)**
 
@@ -10,7 +10,20 @@ A structured, automated checklist system for website launches. Over 200 pre-buil
 
 ## Try It Now — Free, No Registration
 
-Start using Launch Checklist **instantly** — no signup, no credit card, no commitment:
+Two ways to get started **instantly** — no signup, no credit card, no commitment:
+
+### ⚡ Quick Check — Instant Website Audit
+Enter any website URL and get an immediate health report:
+
+- ✅ 9 automated checks (SSL, security headers, meta tags, Open Graph, sitemap and more)
+- 📊 Visual score with radial charts
+- 🔧 Fix hints for every failed check
+- ⏱️ Results in seconds
+
+👉 **[Run a Quick Check](https://launch-checklist.com/quick-check)**
+
+### 📋 Full Launch Checklist
+For a structured launch process with over 200 tasks:
 
 1. Choose a template (Default, TYPO3, WordPress)
 2. Start checking off tasks
@@ -29,9 +42,23 @@ Start using Launch Checklist **instantly** — no signup, no credit card, no com
 
 ## Key Features
 
+### ⚡ Quick Check — Public URL Audit Tool
+
+The fastest way to check if a website is launch-ready. **No registration, no account, no setup.** Just enter a URL and get instant results:
+
+- **9 automated checks** run in sequence (same engine as the full Verify system)
+- **Two radial charts** — Score percentage and passed task count
+- **Live progress** — Watch each check complete in real-time
+- **Expandable details** — Click any check to see what was tested, what failed, and how to fix it
+- **Single source of truth** — Uses the same task pool as the full checklist, so results are consistent across both views
+- **Fix guidance** — For every failed check: "Why it matters" and "How to fix it"
+- **Conversion path** — When you're ready for a full launch plan, create a free project with all 200+ tasks
+
+👉 **Try it at [launch-checklist.com/quick-check](https://launch-checklist.com/quick-check)**
+
 ### Structured Checklists
 
-Over **200 pre-built tasks** organized in **20 categories**, covering everything from DNS setup to post-launch monitoring. Each task includes:
+Over **200 pre-built launch tasks** organized in **20 categories**, covering everything from DNS setup to post-launch monitoring. Each task includes:
 
 - **Why it matters** — contextual explanation of the task's importance
 - **How to fix it** — actionable guidance on how to complete it
@@ -209,6 +236,7 @@ Launch Checklist is developed by **[INGENIUMDESIGN](https://www.ingeniumdesign.d
 ## Links
 
 - 🌐 **Website**: [launch-checklist.com](https://launch-checklist.com)
+- ⚡ **Quick Check**: [launch-checklist.com/quick-check](https://launch-checklist.com/quick-check)
 - 🚀 **Free Checklist**: [launch-checklist.com/checklist](https://launch-checklist.com/checklist)
 - 📋 **Changelog**: [launch-checklist.com/changelog](https://launch-checklist.com/changelog)
 
