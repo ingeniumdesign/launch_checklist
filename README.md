@@ -12,7 +12,7 @@ A structured, automated checklist system for website launches. Over 200 pre-buil
 
 Two ways to get started **instantly** — no signup, no credit card, no commitment:
 
-### ⚡ Quick Check — Instant Website Audit
+### ⚡ Website Quick Check — Instant Website Audit
 Enter any website URL and get an immediate health report:
 
 - ✅ 9 automated checks (SSL, security headers, meta tags, Open Graph, sitemap and more)
@@ -20,7 +20,7 @@ Enter any website URL and get an immediate health report:
 - 🔧 Fix hints for every failed check
 - ⏱️ Results in seconds
 
-👉 **[Run a Quick Check](https://launch-checklist.com/quick-check)**
+👉 **[Run a Website Quick Check](https://launch-checklist.com/quick-check)**
 
 ### 📋 Full Launch Checklist
 For a structured launch process with over 200 tasks:
@@ -42,7 +42,7 @@ For a structured launch process with over 200 tasks:
 
 ## Key Features
 
-### ⚡ Quick Check — Public URL Audit Tool
+### ⚡ Website Quick Check — Public URL Audit Tool
 
 The fastest way to check if a website is launch-ready. **No registration, no account, no setup.** Just enter a URL and get instant results:
 
@@ -53,6 +53,8 @@ The fastest way to check if a website is launch-ready. **No registration, no acc
 - **Single source of truth** — Uses the same task pool as the full checklist, so results are consistent across both views
 - **Fix guidance** — For every failed check: "Why it matters" and "How to fix it"
 - **Conversion path** — When you're ready for a full launch plan, create a free project with all 200+ tasks
+- **Check History** — Registered users see a team-scoped history of past scans with score, checks, and one-click re-scan
+- **Anonymous statistics** — Anonymous scans are logged GDPR-compliant (SHA-256 hashed IP) for global usage insights — no personal data stored
 
 👉 **Try it at [launch-checklist.com/quick-check](https://launch-checklist.com/quick-check)**
 
@@ -143,6 +145,29 @@ Generate professional reports in multiple formats:
 - **Rate Limited** — All auth endpoints protected against brute-force
 - **Anti-Enumeration** — Auth flows never reveal if an email exists
 
+### About / Trust Page
+
+Meet the person behind the tool:
+
+- **Solo-Founder Profile** — 20+ years of web development, 600+ projects
+- **Trust Signals** — Three companies, 10 tools and technologies, core values
+- **E-E-A-T Optimized** — Google ProfilePage + Article JSON-LD schemas for search credibility
+- **Social Links** — LinkedIn, XING, GitHub
+
+👉 **[About Launch Checklist](https://launch-checklist.com/about)**
+
+### AI Discoverability — Grounding Page, llms.txt & Markdown API
+
+Built for the age of AI assistants and LLM-powered search. Launch Checklist makes its product facts machine-readable so tools like ChatGPT, Perplexity, Claude, and Gemini can answer questions about it accurately:
+
+- **[Facts Page](https://launch-checklist.com/facts)** — A dedicated Grounding Page (Spec v1.5) with structured product facts: pricing, features, tech stack, company info, and verification date
+- **[llms.txt](https://launch-checklist.com/llms.txt)** — Markdown site overview following the [llmstxt.org](https://llmstxt.org/) standard — a curated map of the site for AI systems
+- **Markdown API** (`/api/md/...`) — Every public page is available as pure Markdown for AI crawlers via content negotiation (`Accept: text/markdown`) or explicit URL (`/api/md/about`, `/api/md/facts`, etc.)
+- **JSON-LD everywhere** — Organization, WebSite, SoftwareApplication, ProfilePage, Article, BreadcrumbList — on every page
+- **Self-describing** — All facts are verified and dated, so LLMs can cite the source with confidence
+
+👉 **[View the Facts Page](https://launch-checklist.com/facts)** · **[View llms.txt](https://launch-checklist.com/llms.txt)**
+
 ### Admin Panel
 
 Full control over the system:
@@ -150,7 +175,7 @@ Full control over the system:
 - **Task Pool** — Manage all 213 tasks (edit, activate/deactivate, documentation links)
 - **User Management** — View users, change roles, team overview
 - **System Settings** — SMTP, app name, invitation expiry — all configurable via UI
-- **Dashboard** — KPI overview with charts (projects, teams, users, task completion)
+- **Dashboard** — KPI overview with charts, Website Quick Check statistics split into **all scans** (anonymous + registered) and **registered-only** metrics, recent scans list
 - **SMTP Test** — Verify email configuration directly from the admin panel
 
 ### Dark Mode & Multilingual
@@ -236,8 +261,11 @@ Launch Checklist is developed by **[INGENIUMDESIGN](https://www.ingeniumdesign.d
 ## Links
 
 - 🌐 **Website**: [launch-checklist.com](https://launch-checklist.com)
-- ⚡ **Quick Check**: [launch-checklist.com/quick-check](https://launch-checklist.com/quick-check)
+- ⚡ **Website Quick Check**: [launch-checklist.com/quick-check](https://launch-checklist.com/quick-check)
 - 🚀 **Free Checklist**: [launch-checklist.com/checklist](https://launch-checklist.com/checklist)
+- 👤 **About**: [launch-checklist.com/about](https://launch-checklist.com/about)
+- 📊 **Facts (Grounding Page)**: [launch-checklist.com/facts](https://launch-checklist.com/facts)
+- 🤖 **llms.txt**: [launch-checklist.com/llms.txt](https://launch-checklist.com/llms.txt)
 - 📋 **Changelog**: [launch-checklist.com/changelog](https://launch-checklist.com/changelog)
 
 ---
